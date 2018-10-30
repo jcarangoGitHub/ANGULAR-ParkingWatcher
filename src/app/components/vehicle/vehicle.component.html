@@ -1,0 +1,34 @@
+<div>  
+  <table>
+    <tr>
+      <th>
+          <label>ID Vehicle:
+            <input [(ngModel)]="parkedVehicle.idVehicle" placeholder="ID Vehicle"/>
+          </label>
+      </th>
+      <th>
+          <label>Type Vehicle:
+            <input [(ngModel)]="parkedVehicle.typeVehicle" placeholder="Type Vehicle"/>
+          </label>
+      </th>
+      <th>
+          <label>Engine Capacity (CC):
+            <input [(ngModel)]="parkedVehicle.engineCapacity" placeholder="Engine Capacity (CC)"/>
+          </label>
+      </th>
+    </tr>
+    <tr>
+      <th>&nbsp;</th>
+      <th>&nbsp;</th>
+      <th>&nbsp;</th>
+    </tr>
+    <tr>
+      <th>&nbsp;</th>
+      <th>
+        <button (click)="entryVehicle()">
+          Entry vehicle
+        </button>        
+      </th>
+    </tr>
+  </table> 
+</div>
